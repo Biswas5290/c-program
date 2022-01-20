@@ -1,0 +1,12 @@
+#include <stdio.h> 
+int main() 
+{ 
+int i,cube;
+ printf("enter a number : "); 
+scanf("%d", &cube); 
+for(i=1;i<=cube;i++) 
+{
+ printf("cube is %d:%d\n",i,(i*i*i));
+} 
+return 0; 
+}
